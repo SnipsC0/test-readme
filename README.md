@@ -2,7 +2,7 @@
   <img src="https://raw.githubusercontent.com/SnipsC0/test-readme/main/logo.png" width="200" alt="Home Inventory Logo">
 </p>
 
-<h3 align="center">Know what you have and where you put it, without leaving Home Assistant.</h3>
+<h3 align="center">Remember where you put things, and what is about to expire, without leaving Home Assistant.</h3>
 
 <div align="center">
 
