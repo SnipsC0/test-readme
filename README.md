@@ -282,8 +282,17 @@ Nothing leaves your Home Assistant: no cloud, no telemetry, and QR codes are gen
 
 ## License
 
-MIT. Do what you like with it.
+Home Inventory is free and open source under the [MIT License](LICENSE). Use it at home, change it, share it. If you build something nice on top of it, I'd love to hear about it.
 
-## Support
+---
 
-Found a bug or want a feature? Open an issue. If the integration is useful to you, a star on GitHub is appreciated.
+<div align="center">
+
+## Enjoying Home Inventory?
+
+Found a bug, or have an idea that would make it more useful in your house? Tell me. A star helps other people find the project.
+
+<a href="https://github.com/SnipsC0/Home-Inventory/stargazers"><img src="https://img.shields.io/badge/%E2%AD%90_Star_on_GitHub-f5a623?style=for-the-badge" alt="Star on GitHub"></a>
+<a href="https://github.com/SnipsC0/Home-Inventory/issues/new"><img src="https://img.shields.io/badge/Report_a_bug_or_suggest_a_feature-e5484d?style=for-the-badge" alt="Open an issue"></a>
+
+</div>
