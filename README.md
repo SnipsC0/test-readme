@@ -256,25 +256,35 @@ Nothing leaves your Home Assistant: no cloud, no telemetry, and QR codes are gen
 <details>
 <summary>Tips</summary>
 
-**Start small.** Do one room, or even one cupboard, before you try to catalogue the whole house. Add the structure first (room, cupboard, shelf), then the items. Once the first cupboard works the way you like, the rest goes quickly.
+**Start small**<br>
+Do one room, or even one cupboard, before you try to catalogue the whole house. Add the structure first (room, cupboard, shelf), then the items. Once the first cupboard works the way you like, the rest goes quickly.
 
-**Use organizers for boxes and drawers.** If a shelf holds a few boxes, make each box an organizer. "Third shelf, blue box" is much easier to find than "somewhere in the garage".
+**Use organizers for boxes and drawers**<br>
+If a shelf holds a few boxes, make each box an organizer. "Third shelf, blue box" is much easier to find than "somewhere in the garage".
 
-**Take a photo, even a bad one.** A picture of the shelf or the box is often faster than a description, and it helps when two things have similar names. Photos on items are optional, but they make search results much easier to scan.
+**Take a photo, even a bad one**<br>
+A picture of the shelf or the box is often faster than a description, and it helps when two things have similar names. Photos on items are optional, but they make search results much easier to scan.
 
-**Track quantity only where it matters.** Batteries, coffee filters and light bulbs are worth it. A hammer is not. For tracked items, set a minimum you would really restock at. The low stock alert fires when the total across all places drops to it, so it will not nag you while the spare is in another cupboard.
+**Track quantity only where it matters**<br>
+Batteries, coffee filters and light bulbs are worth it. A hammer is not. For tracked items, set a minimum you would really restock at. The low stock alert fires when the total across all places drops to it, so it will not nag you while the spare is in another cupboard.
 
-**Add aliases.** If you call it "the drill" but the label says "cordless screwdriver", add both names so either one finds it.
+**Add aliases**<br>
+If you call it "the drill" but the label says "cordless screwdriver", add both names so either one finds it.
 
-**Use variants for sizes and brands.** A 500 g and a 1 kg jar of honey are the same item with two variants. Each gets its own quantity and its own barcode, and scanning either one opens the right row.
+**Use variants for sizes and brands**<br>
+A 500 g and a 1 kg jar of honey are the same item with two variants. Each gets its own quantity and its own barcode, and scanning either one opens the right row.
 
-**Put expiry dates on medicine first.** Food usually gets eaten before it expires, medicine does not. Go through the medicine cabinet once, add the dates from the boxes, and let the warning window (7 days by default, adjustable in the options) do the remembering. Add partly used packs as separate batches if their dates differ.
+**Put expiry dates on medicine first**<br>
+Food usually gets eaten before it expires, medicine does not. Go through the medicine cabinet once, add the dates from the boxes, and let the warning window (7 days by default, adjustable in the options) do the remembering. Add partly used packs as separate batches if their dates differ.
 
-**Label the furniture you open most.** A QR code or an NFC tag on the cupboard door takes you straight to what is inside, without browsing through rooms. Print the QR code from the QR / NFC dialog, or write the link to a cheap NFC sticker.
+**Label the furniture you open most**<br>
+A QR code or an NFC tag on the cupboard door takes you straight to what is inside, without browsing through rooms. Print the QR code from the QR / NFC dialog, or write the link to a cheap NFC sticker.
 
-**Let Home Assistant do the nagging.** Send low stock to a shopping list and expiring items to your phone (see the [automation examples](docs/automations.md)). Then you only open the panel when you need to look something up.
+**Let Home Assistant do the nagging**<br>
+Send low stock to a shopping list and expiring items to your phone (see the [automation examples](docs/automations.md)). Then you only open the panel when you need to look something up.
 
-**Check the delete preview.** Deleting a cupboard removes its shelves, items and photos too. The preview lists all of it before you confirm.
+**Check the delete preview**<br>
+Deleting a cupboard removes its shelves, items and photos too. The preview lists all of it before you confirm.
 
 </details>
 
@@ -292,7 +302,7 @@ Home Inventory is free and open source under the [MIT License](LICENSE). Use it 
 
 Found a bug, or have an idea that would make it more useful in your house? Tell me. A star helps other people find the project.
 
-<a href="https://github.com/SnipsC0/Home-Inventory/stargazers"><img src="https://img.shields.io/badge/%E2%AD%90_Star_on_GitHub-f5a623?style=for-the-badge" alt="Star on GitHub"></a>
+<a href="https://github.com/SnipsC0/Home-Inventory/stargazers"><img src="https://img.shields.io/badge/%E2%AD%90_Star_on_GitHub-a16207?style=for-the-badge" alt="Star on GitHub"></a>
 <a href="https://github.com/SnipsC0/Home-Inventory/issues/new"><img src="https://img.shields.io/badge/Report_a_bug_or_suggest_a_feature-e5484d?style=for-the-badge" alt="Open an issue"></a>
 
 </div>
