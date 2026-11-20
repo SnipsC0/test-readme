@@ -256,12 +256,25 @@ Nothing leaves your Home Assistant: no cloud, no telemetry, and QR codes are gen
 <details>
 <summary>Tips</summary>
 
-1. Set up rooms, cupboards and shelves first, then add items.
-2. Only track quantity for things you actually run out of, and set a minimum you'd really restock at.
-3. Add aliases so items are easy to search, and take a photo so you can recognize them.
-4. Use variants for different sizes or brands, each with its own barcode.
-5. Add expiry dates to food and medicine.
-6. Put a QR code or NFC tag on the furniture you open most.
+**Start small.** Do one room, or even one cupboard, before you try to catalogue the whole house. Add the structure first (room, cupboard, shelf), then the items. Once the first cupboard works the way you like, the rest goes quickly.
+
+**Use organizers for boxes and drawers.** If a shelf holds a few boxes, make each box an organizer. "Third shelf, blue box" is much easier to find than "somewhere in the garage".
+
+**Take a photo, even a bad one.** A picture of the shelf or the box is often faster than a description, and it helps when two things have similar names. Photos on items are optional, but they make search results much easier to scan.
+
+**Track quantity only where it matters.** Batteries, coffee filters and light bulbs are worth it. A hammer is not. For tracked items, set a minimum you would really restock at. The low stock alert fires when the total across all places drops to it, so it will not nag you while the spare is in another cupboard.
+
+**Add aliases.** If you call it "the drill" but the label says "cordless screwdriver", add both names so either one finds it.
+
+**Use variants for sizes and brands.** A 500 g and a 1 kg jar of honey are the same item with two variants. Each gets its own quantity and its own barcode, and scanning either one opens the right row.
+
+**Put expiry dates on medicine first.** Food usually gets eaten before it expires, medicine does not. Go through the medicine cabinet once, add the dates from the boxes, and let the warning window (7 days by default, adjustable in the options) do the remembering. Add partly used packs as separate batches if their dates differ.
+
+**Label the furniture you open most.** A QR code or an NFC tag on the cupboard door takes you straight to what is inside, without browsing through rooms. Print the QR code from the QR / NFC dialog, or write the link to a cheap NFC sticker.
+
+**Let Home Assistant do the nagging.** Send low stock to a shopping list and expiring items to your phone (see the [automation examples](docs/automations.md)). Then you only open the panel when you need to look something up.
+
+**Check the delete preview.** Deleting a cupboard removes its shelves, items and photos too. The preview lists all of it before you confirm.
 
 </details>
 
