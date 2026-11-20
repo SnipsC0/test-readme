@@ -20,9 +20,13 @@
   <img src="https://raw.githubusercontent.com/SnipsC0/test-readme/main/docs/assets/gifs/hero.gif" alt="Browsing from a room down to an item and changing its quantity" width="800">
 </p>
 
-Things you don't use often are the ones you lose: the spare light bulbs, the soldering iron, the winter blanket, the batteries you know you bought. A year later you can't remember which cupboard, shelf or box they went into, so you search the whole house or buy them again.
+Things you don't use often are the ones you lose: the spare light bulbs, the soldering iron, the winter blanket, the batteries you know you bought. A year later you can't remember which cupboard or box they went into, so you search the whole house or buy them again.
 
-Home Inventory solves that by following the way a house is actually laid out: **room → cupboard → shelf → organizer → item**. Every level can have a photo, and the same item can sit in several places at once, each with its own quantity and expiry dates. Open the panel, search for the item, and see exactly where it is.
+Things that expire are worse. The medicine cabinet fills up quietly, and you usually find out the aspirin expired at the moment you need it.
+
+This is meant to be the place you check first. Write down where something lives once, and next time you just search for it instead of opening every drawer. Add the expiry date to the aspirin and Home Assistant tells you a week before it goes bad, while there's still time to buy a new box. And since the same item can be in more than one place, with a count for each, you also stop buying a fourth pack of batteries when three are already in the hallway drawer.
+
+Every level (room, cupboard, shelf, organizer) can have a photo, so you can also see where things are, not just read it.
 
 Everything stays on your Home Assistant box. Low stock and expiry show up as sensors and events, so you can hook them into your own automations.
 
