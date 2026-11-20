@@ -203,10 +203,6 @@ Four sensors and two events are available. Reference pages:
 - [Events](docs/events.md): `home_inventory_low_stock`, `home_inventory_expiring_soon`
 - [Automation examples](docs/automations.md): push notification, shopping list, Discord, LED, expiry
 
-<table>
-<tr>
-<td width="55%" valign="top">
-
 ```yaml
 automation:
   - alias: 'Low Stock Notification'
@@ -218,18 +214,14 @@ automation:
         data:
           title: '⚠️ Low Stock: {{ trigger.event.data.name }}'
           message: >
-            Quantity: {{ trigger.event.data.quantity }} / {{ trigger.event.data.min_quantity }}
+            Quantity: {{ trigger.event.data.quantity }}
+            / {{ trigger.event.data.min_quantity }}
             Location: {{ trigger.event.data.location }}
 ```
 
-</td>
-<td width="45%">
-
-<img src="https://raw.githubusercontent.com/SnipsC0/test-readme/main/docs/assets/screenshots/07-notification.png" alt="Low stock notification and shopping list on a phone" width="100%">
-
-</td>
-</tr>
-</table>
+<p align="center">
+<img src="https://raw.githubusercontent.com/SnipsC0/test-readme/main/docs/assets/screenshots/07-notification.png" alt="Low stock notification and shopping list on a phone" width="320">
+</p>
 
 ---
 
