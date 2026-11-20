@@ -219,6 +219,20 @@ automation:
             Location: {{ trigger.event.data.location }}
 ```
 
+Add the same item to the Home Assistant shopping list:
+
+```yaml
+automation:
+  - alias: '🛒 Add Low Stock to Shopping List'
+    trigger:
+      - platform: event
+        event_type: home_inventory_low_stock
+    action:
+      - service: shopping_list.add_item
+        data:
+          name: '{{ trigger.event.data.name }}'
+```
+
 <p align="center">
 <img src="https://raw.githubusercontent.com/SnipsC0/test-readme/main/docs/assets/screenshots/07-notification.png" alt="Low stock notification and shopping list on a phone" width="320">
 </p>
