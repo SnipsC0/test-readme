@@ -20,7 +20,9 @@
   <img src="https://raw.githubusercontent.com/SnipsC0/test-readme/main/docs/assets/gifs/hero.gif" alt="Browsing from a room down to an item and changing its quantity" width="800">
 </p>
 
-I built this because I kept buying things I already had and losing track of what was in which cupboard. It's a Home Assistant integration that follows the way a house is actually laid out: **room → cupboard → shelf → organizer → item**. Every level can have a photo, and the same item can sit in several places at once, each with its own quantity and expiry dates.
+Things you don't use often are the ones you lose: the spare light bulbs, the soldering iron, the winter blanket, the batteries you know you bought. A year later you can't remember which cupboard, shelf or box they went into, so you search the whole house or buy them again.
+
+Home Inventory solves that by following the way a house is actually laid out: **room → cupboard → shelf → organizer → item**. Every level can have a photo, and the same item can sit in several places at once, each with its own quantity and expiry dates. Open the panel, search for the item, and see exactly where it is.
 
 Everything stays on your Home Assistant box. Low stock and expiry show up as sensors and events, so you can hook them into your own automations.
 
